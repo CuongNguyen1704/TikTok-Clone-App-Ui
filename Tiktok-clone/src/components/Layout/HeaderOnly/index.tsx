@@ -1,6 +1,7 @@
 import Header from "@/components/Layout/components/Header";
 
-function DefaultLayout({children}: {children: React.ReactNode}) {
+function HeaderOnly
+({children}: {children: React.ReactNode}) {
     return (
         <div>
             <Header />
@@ -14,4 +15,5 @@ function DefaultLayout({children}: {children: React.ReactNode}) {
     );
 }
 
-export default DefaultLayout;
+export default HeaderOnly
+;
